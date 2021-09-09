@@ -94,7 +94,7 @@ const str = "Browser and Developer tools\n" +
     "Публикация в Netlify\n" +
     "Публикация в AWS"
 
-const arr = (str.split('NEW'))
+const arr = str.split('NEW')
 let list = []
 arr.forEach(el => list.push(el.split(/\n/g)))
 
