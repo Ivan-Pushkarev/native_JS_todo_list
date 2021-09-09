@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+}
+
+body {
+
+	color: black;
+	font-size: 13px;
+	background: url(http://drivepremium.com/wp-content/themes/OpenDoor1.4/images/background-striped.png) fixed
+}
+.todo {
+	background-color: white;
+	padding: 60px 0 40px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.header {
+	color: white;
+	background: url("http://drivepremium.com/wp-content/themes/OpenDoor1.4/images/subtle_carbon.jpg");
+	width: 100%;
+	padding: 15px 0 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.logo-border{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 10%;
+	border-radius: 100%;
+	background: url("http://drivepremium.com/wp-content/themes/OpenDoor1.4/images/subtle_carbon.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+	//border: solid 4px;
+
+}
+.logo {
+	background: url("http://drivepremium.com/wp-content/themes/OpenDoor1.4/images/subtle_carbon.jpg");
+	width: 97%;
+	height: 97%;
+	border-radius: 100%;
+	border: white solid 7px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	img{
+		transform: scale(1.5);
+		transition: 0.5s all;
+		&:hover{
+			transform: scale(1.6);
+		}
+	}
+}
+.todo-content {
+	padding-top: 40px;
+	text-align: center;
+}
+.accordion-wrapper{
+	margin: 10px auto;
+	width: 60%;
+}
+ol{
+	font-size: 20px;
+}
+li{
+	text-align: start;
+}
+
+.menu ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 20px;
+	display: none;
+}
+
+.menu .title {
+	font-size: 18px;
+	cursor: pointer;
+
+	&:before {
+		content: '▶ ';
+		font-size: 80%;
+		color: black;
+	}
+}
+
+.menu.open .title::before {
+	content: '▼ ';
+}
+
+.menu.open ul {
+	display: block;
+}
+
+.menu.open{
+	.title {
+		font-size: 22px;
+		font-weight: bold;
+	}
+}
+
+.innerItem {
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.innerItem.done {
+	text-decoration: line-through;
+	font-style: italic;
+}
+.doneButton {
+	background-color:white;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	transition: 0.5s all;
+	&:hover{
+		transform: scale(1.2);
+	}
+	img{
+		width: 100%;
+	}
+}
+.doneButton.done {
+	opacity: 30%;
+}
