@@ -8,13 +8,13 @@
 body {
   color: black;
   font-size: 13px;
-  background: url(img/bright-background-with-dots_1055-3132.jpg) center center/cover no-repeat;
+  background: url(img/bright-background-with-dots_1055-3132.jpg) center center/cover no-repeat fixed;
 }
 
 .todo {
   background-color: white;
   padding: 60px 0 40px;
-  height: 100vh;
+  min-height: 100vh;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
@@ -54,11 +54,11 @@ body {
   align-items: center;
 }
 .logo img {
-  transform: scale(1.5);
+  width: 120px;
   transition: 0.5s all;
 }
 .logo img:hover {
-  transform: scale(1.6);
+  transform: scale(1.3);
 }
 
 .todo-content {
@@ -75,13 +75,17 @@ ol {
   font-size: 20px;
 }
 
+ul {
+  list-style: disc;
+}
+
 li {
   text-align: start;
+  display: list-item;
 }
 
 .menu ul {
   margin: 0;
-  list-style: none;
   padding-left: 20px;
   display: none;
 }
@@ -89,6 +93,7 @@ li {
 .menu .title {
   font-size: 18px;
   cursor: pointer;
+  transition: 0.5s all;
 }
 .menu .title:before {
   content: "▶ ";
@@ -105,6 +110,7 @@ li {
 }
 
 .menu.open .title {
+  transition: 0.5s all;
   font-size: 22px;
   font-weight: bold;
 }
@@ -114,11 +120,25 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
+}
+.innerItem span {
+  position: relative;
+}
+.innerItem span:after {
+  content: "   ...........................................................................................................................................................................................";
+  position: absolute;
+  z-index: -1;
+  color: lightgrey;
 }
 
-.innerItem.done {
+.done .innerItem span {
   text-decoration: line-through;
   font-style: italic;
+}
+.done .innerItem span a {
+  text-decoration: none;
+  color: black;
 }
 
 .doneButton {

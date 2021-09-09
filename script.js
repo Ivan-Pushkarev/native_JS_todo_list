@@ -1,20 +1,20 @@
 const str = "Browser and Developer tools\n" +
     "Как работает браузер\n" +
-    "Developer tools https://youtu.be/6B1XQ0Ukn6c\n" +
-    "Network tab https://youtu.be/o1ZfsV9kGLA\n" +
-    "Зависимые запросы. Network Waterfall https://youtu.be/vFn-2XiBSxA\n" +
-    "WebStorm and Hello world https://youtu.be/C9NcErhFMVk" + "NEW" +
+    "Developer tools  <a href ='https://youtu.be/6B1XQ0Ukn6c'>Смотреть видео</a>\n" +
+    "Network tab <a href ='https://youtu.be/o1ZfsV9kGLA'>Смотреть видео</a>\n" +
+    "Зависимые запросы. Network Waterfall  <a href ='https://youtu.be/vFn-2XiBSxA'>Смотреть видео</a>\n" +
+    "WebStorm and Hello world <a href ='https://youtu.be/C9NcErhFMVk'>Смотреть видео</a>" + "NEW" +
     "HTML\n" +
-    "Main tags doctype, html, head, body https://youtu.be/gupNH-T2NpY\n" +
-    "Tags h1, h2, h3, p. WebStorm shortcuts https://youtu.be/DFZjtCaptTw\n" +
-    "Теги для форматирования текста: strong, b, i, s, u https://youtu.be/Gpgvl2bQIOE\n" +
-    "Tags div, span https://youtu.be/oA0_ExPZ6JA\n" +
+    "Main tags doctype, html, head, body <a href ='https://youtu.be/gupNH-T2NpY'>Смотреть видео</a>\n" +
+    "Tags h1, h2, h3, p. WebStorm shortcuts  <a href ='https://youtu.be/DFZjtCaptTw'>Смотреть видео</a>\n" +
+    "Теги для форматирования текста: strong, b, i, s, u  <a href ='https://youtu.be/Gpgvl2bQIOE'>Смотреть видео</a>\n" +
+    "Tags div, span  <a href ='https://youtu.be/oA0_ExPZ6JA'>Смотреть видео</a>\n" +
     "Маркированные и нумерованные списки\n" +
-    "Ссылки – создание связей между страницами https://youtu.be/4IXu8g40k8c\n" +
-    "Images from remote source https://youtu.be/kGs8oDh58BM\n" +
-    "Images from a local source https://youtu.be/4iWGIYY6_yU\n" +
-    "Атрибуты для добавления свойств к тегам\n" +
-    "Tables https://youtu.be/qV9lHgTo6FQ" + "NEW" +
+    "Ссылки – создание связей между страницами  <a href ='https://youtu.be/4IXu8g40k8c'>Смотреть видео</a>\n" +
+    "Images from remote source  <a href ='https://youtu.be/kGs8oDh58BM'>Смотреть видео</a>\n" +
+    "Images from a local source  <a href ='https://youtu.be/4iWGIYY6_yU'>Смотреть видео</a>\n" +
+    "Атрибуты для добавления свойств к тегам \n" +
+    "Tables  <a href ='https://youtu.be/qV9lHgTo6FQ'>Смотреть видео</a>" + "NEW" +
     "HTML + CSS\n" +
     "Для чего нужны стили\n" +
     "Браузерные инструменты отладки\n" +
@@ -40,16 +40,17 @@ const str = "Browser and Developer tools\n" +
     "Ключевое слово !important\n" +
     "Специфичность" + "NEW" +
     "HTML + JS\n" +
-    "Подключение JS к HTML странице https://youtu.be/SwxJMqKtbhk\n" +
-    "Event handler onclick https://youtu.be/SMqoff0DFoU\n" +
-    "Поиск DOM элемента по тегу – getElementsByTagName https://youtu.be/-6ouNpRgol4\n" +
-    "Поиск DOM элемента по id – getElementById https://youtu.be/3SR4T00lY8s\n" +
-    "Поиск DOM элемента по id – GetElementsByClassName https://youtu.be/Bs_y9lacV60\n" +
-    "Counter app. Изменение текста DOM элемента https://youtu.be/EVu9hVYkgd0\n" +
-    "TodoList. List generator. createElement, appendChild https://youtu.be/D1Y6adnVXx8\n" +
-    "TodoList. Add item to list, List render https://youtu.be/LvraBGJO4-M\n" +
-    "TodoList. Optimisation selectors https://youtu.be/k8CQf_sjaKk\n" +
-    "TodoList. Add buttons Done <a href ='https://youtu.be/27asOd07mV8'>https://youtu.be/27asOd07mV8</a>\n" +
+   
+    "Подключение JS к HTML странице <a href ='https://youtu.be/SwxJMqKtbhk'>Смотреть видео</a>\n" +
+    "Event handler onclick  <a href ='https://youtu.be/SMqoff0DFoU'>Смотреть видео</a>\n" +
+    "Поиск DOM элемента по тегу – getElementsByTagName  <a href ='https://youtu.be/-6ouNpRgol4'>Смотреть видео</a>\n" +
+    "Поиск DOM элемента по id – getElementById  <a href ='https://youtu.be/3SR4T00lY8s'>Смотреть видео</a>\n" +
+    "Поиск DOM элемента по id – GetElementsByClassName  <a href ='https://youtu.be/Bs_y9lacV60'>Смотреть видео</a>\n" +
+    "Counter app. Изменение текста DOM элемента <a href ='https://youtu.be/EVu9hVYkgd0'>Смотреть видео</a>\n" +
+    "TodoList. List generator. createElement, appendChild  <a href ='https://youtu.be/D1Y6adnVXx8'>Смотреть видео</a>\n" +
+    "TodoList. Add item to list, List render  <a href ='https://youtu.be/LvraBGJO4-M'>Смотреть видео</a>\n" +
+    "TodoList. Optimisation selectors  <a href ='https://youtu.be/k8CQf_sjaKk'>Смотреть видео</a>\n" +
+    "TodoList. Add buttons Done <a href ='https://youtu.be/27asOd07mV8'>https://Смотреть видео</a>\n" +
     "Изменение свойств DOM элемента\n" +
     "Установка обработчиков событий.\n" +
     "Event bubbling, propagation, capturing\n" +
@@ -99,7 +100,8 @@ let list = []
 arr.forEach(el => list.push(el.split(/\n/g)))
 
 const finalList = list.map(createList)
-
+const localList =JSON.parse(localStorage.getItem("list"))
+console.log('local storage',localList)
 
 function createList(el) {
     const title = el.shift()
@@ -121,21 +123,20 @@ function render() {
             let titleName = document.createElement("span")
             titleName.innerHTML = el.title
             titleName.className= "title"
-            titleName.onclick = function() {
-                titleList.classList.toggle('open');
-               };
+            
             titleList.append(titleName)
             titleList.className = "menu"
     
         // Создание подпунктов
         
             const innerList = document.createElement("ul")
-        
+            innerList.className = "animate__animated animate__fadeIn animate__slow"
             for (let item of el.content) {
                 const innerListItem = document.createElement('li')
-                innerListItem.innerHTML = `<span>${item.name}</span>`
-                innerListItem.className = "innerItem"
+                const innerListItemWrapper = document.createElement('div')
                 
+                innerListItemWrapper.innerHTML = `<span>${item.name}</span>`
+                innerListItemWrapper.className = "innerItem"
         // Добавление кнопок
                 const markASDoneButton = document.createElement("button")
                 markASDoneButton.innerHTML ="<img src=\"img/completed-icon-0.jpg\" alt=\"\">"
@@ -144,11 +145,14 @@ function render() {
                     innerListItem.classList.toggle('done');
                     markASDoneButton.classList.toggle('done');
                 };
-                innerListItem.append( markASDoneButton)
-                innerList.append(innerListItem)
+                innerListItemWrapper.append( markASDoneButton)     // помещаем кнопку в обертку
+                innerListItem.append(innerListItemWrapper)         // помещаем обертку в li
+                innerList.append(innerListItem)                    // помещаем li в ul
             }
             titleList.append(innerList)
-            
+            titleName.onclick = function() {
+                  titleList.classList.toggle('open')
+            };
             document.getElementById("list").append(titleList);
         }
     );
@@ -156,7 +160,17 @@ function render() {
 
 render();
 
+// Анимация логотипа
+const element = document.querySelector('#logo');
+element.className = ("animate__flipInY animate__animated animate__slower");
+element.addEventListener('animationend', () => {
+    element.className = "animate__flipInY animate__animated animate__slower"
+    setTimeout(()=> {
+            element.className ="animate__flipOutY animate__animated animate__slower animate"
+        }, 20000
+    )
+});
+localStorage.setItem("list",JSON.stringify(finalList))
 
-console.log(titleList)
 
 
